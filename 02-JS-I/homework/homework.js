@@ -10,10 +10,6 @@ const nuevoNum = 5;
 
 // Crea una variable booleana:
 const nuevoBool = false;
-
-
-
-
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
 
@@ -21,7 +17,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1 ;
+const nuevoModulo = 21 % 5 === 1 ; 
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -147,6 +143,8 @@ function esImpar(num) {
   }
 }
 
+
+
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
@@ -201,6 +199,7 @@ function esPositivo(numero) {
   }
   else{
     return "Es positivo";
+    
   }
     
 }
@@ -276,7 +275,27 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if(letra.length>1){
+    return "Dato incorrecto";
+  }
+  else if(letra === "a"){
+    return "Es vocal"
+  }
+  else if(letra === "e"){
+    return "Es vocal"
+  }
+  else if(letra === "i"){
+    return "Es vocal"
+  }
+  else if(letra === "o"){
+    return "Es vocal"
+  }
+  else if(letra === "u"){
+    return "Es vocal"
+  }
+  else {
+    return "Dato incorrecto"
+  }
 }
 
 
